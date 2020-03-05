@@ -1,44 +1,65 @@
+
 #container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    height: 90vh;
-    gap: 5%;
-    margin: 10px;
+    height: 95vh;
+    gap: 25px;
+    margin: 20px;
+    text-align: center;
+    
 }
 
 #boxA{
     grid-column: 1;
     grid-row: 1;
     background-color: turquoise;
+    padding-top: 10%;
+    font-size: 40px;
+    color: white;
 }
 
 #boxB{
     grid-column: 2;
     grid-row: 1;
     background-color: orange;
+    padding-top: 10%;
+    font-size: 40px;
+    color: white;
 }
 
 #boxC{
     grid-column: 2/4;
     grid-row: 2/4;
     background-color: greenyellow;
+    padding-top: 10%;
+    font-size: 40px;
+    color: white;
 }
 
 #boxD{
     grid-column: 3;
     grid-row: 1;
     background-color: purple;
+    padding-top: 10%;
+    font-size: 40px;
+    color: white;
 }
 
 #boxE{
     grid-column: 1;
     grid-row: 2;
     background-color: hotpink;
+    padding-top: 10%;
+    font-size: 40px;
+    color: white;
 }
 
 #boxF{
     grid-column: 1;
     grid-row: 3;
     background-color: rgb(65, 151, 180);
+    padding-top: 10%;
+    font-size: 40px;
+    color: white;
 }
